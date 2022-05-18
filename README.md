@@ -1,207 +1,85 @@
-# [Material Kit 2 React](http://demos.creative-tim.com/material-kit-react/#/?ref=readme-mkr) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/material-kit-react&text=Check%20Material%20kit%20React%20made%20by%20@CreativeTim%20#webdesign%20#kit%20#materialdesign%20#react%20https://www.creative-tim.com/product/material-kit-react)
+<p align="center">
+  <a href="http://atomizecode.com">
+    <img width="110px" style="margin-right: 20px" src="https://firebasestorage.googleapis.com/v0/b/pawan-dev.appspot.com/o/logo.svg?alt=media">
+  </a>
+</p>
 
-![version](https://img.shields.io/badge/version-2.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/material-kit-react.svg)](https://github.com/creativetimofficial/material-kit-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/material-kit-react.svg)](https://github.com/creativetimofficial/material-kit-react/issues?q=is%3Aissue+is%3Aclosed)
+<h1 align="center">Atomize Code</h1>
 
-![Image](https://s3.amazonaws.com/creativetim_bucket/products/83/original/material-kit-2-react.jpg)
+<div align="center">
 
-Material Kit 2 React is our newest free MUI Design System based on React. Its amazing design is inspired by Material Design and contains all the components you need for your development. If you’re a developer looking to create good-looking websites, rich with features, and highly customisable, here is your match.
+UI Design System for React JS
 
-_Fully Coded Elements_
-Material Kit 2 React is built with over 40 frontend individual elements, like buttons, inputs, navbars, alerts or cards, giving you the freedom of choosing and combining. All components can take variations in color, which you can easily modify using MUI styled() API and sx prop. You will save a lot of time going from prototyping to full-functional code because all elements are implemented.
+[![npm package](https://img.shields.io/npm/v/atomize.svg?style=flat-square)](https://www.npmjs.org/package/atomize) [![NPM downloads](http://img.shields.io/npm/dm/atomize.svg?style=flat-square)](http://npmjs.com/atomize) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-This free MUI & React template is coming with pre-built design blocks, so the development process is seamless,
-switching from our pages to the real website is very easy to be done.
-View all components here. (https://www.creative-tim.com/learning-lab/react/alerts/material-kit/)
+</div>
 
-_Documentation built by Developers_
-Each element is well presented in very complex documentation.
-You can read more about the documentation here (https://www.creative-tim.com/learning-lab/react/overview/material-kit/).
+[![](https://firebasestorage.googleapis.com/v0/b/pawan-dev.appspot.com/o/Screenshot%202019-07-19%20at%2011.16.03%20AM.png?alt=media)](http://atomizecode.com)
 
-_Example Pages_
-If you want to get inspiration or just show something directly to your clients, you can jump-start your development with our pre-built example pages. You will be able to quickly set up the basic structure for your web project.
+## Features
 
-View example pages here. (https://demos.creative-tim.com/material-kit-react/#/pages/landing-pages/about-us)
+- UI design system for web apps.
+- Elegant and beautiful React components
 
-**HELPFUL LINKS**
+## Environment Support
 
-- View [Github Repository](https://github.com/creativetimofficial/material-kit-react)
-- Check [FAQ Page](https://www.creative-tim.com/faq)
+- Modern browsers and Internet Explorer 9+
+- Server-side Rendering
+- [Electron](http://electron.atom.io/)
 
-#### Special thanks
+| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png" alt="Opera" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Opera | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/electron/electron_48x48.png" alt="Electron" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Electron |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| IE9, IE10, IE11, Edge                                                                                                                                                                                           | last 2 versions                                                                                                                                                                                                   | last 2 versions                                                                                                                                                                                               | last 2 versions                                                                                                                                                                                               | last 2 versions                                                                                                                                                                                           | last 2 versions                                                                                                                                                                                                       |
 
-During the development of this dashboard, we have used many existing resources from awesome developers. We want to thank them for providing their tools open source:
+## Install
 
-- [MUI](https://mui.com/) - The React UI library for faster and easier web development.
-- [React Flatpickr](https://github.com/haoxins/react-flatpickr) - Useful library used to select date.
-- [React Copy to Clipboard](https://github.com/nkbt/react-copy-to-clipboard) - Useful library used for copying data to the clipboard.
-- [React Countup](https://github.com/glennreyes/react-countup) - A lightweight React component that can be used to quickly create animations that display numerical data in a more interesting way.
-- [React Syntax Highlighter](https://github.com/react-syntax-highlighter/react-syntax-highlighter) - Syntax highlighting component for react with prismjs or highlightjs ast using inline styles.
-- [ChromaJS](https://gka.github.io/chroma.js/) - A small-ish zero-dependency JavaScript library for all kinds of color conversions and color scales.
-
-Let us know your thoughts below. And good luck with development!
-
-## Table of Contents
-
-- [Versions](#versions)
-- [Demo](#demo)
-- [Quick Start](#quick-start)
-- [Documentation](#documentation)
-- [File Structure](#file-structure)
-- [Browser Support](#browser-support)
-- [Resources](#resources)
-- [Reporting Issues](#reporting-issues)
-- [Technical Support or Questions](#technical-support-or-questions)
-- [Licensing](#licensing)
-- [Useful Links](#useful-links)
-
-## Versions
-
-[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/material-kit-react?ref=readme-mkr)
-
-| React |
-| ----- |
-
-| [![Material Kit 2 React](https://s3.amazonaws.com/creativetim_bucket/products/83/thumb/material-kit-2-react.jpg)](http://demos.creative-tim.com/material-kit-react/#/?ref=readme-mkr)
-
-## Demo
-
-- [About Us](https://demos.creative-tim.com/material-kit-react/#/pages/landing-pages/about-us?ref=readme-mkr)
-- [Contact Us](https://demos.creative-tim.com/material-kit-react/#/pages/landing-pages/contact-us?ref=readme-mkr)
-- [Author](https://demos.creative-tim.com/material-kit-react/#/pages/landing-pages/author?ref=readme-mkr)
-- [Pricing page](https://demos.creative-tim.com/material-kit-react/#/pages/authentication/sign-in?ref=readme-mkr)
-
-[View More](https://demos.creative-tim.com/material-kit-react/#/?ref=readme-mkr).
-
-## Quick start
-
-Quick start options:
-
-- Download from [Creative Tim](https://www.creative-tim.com/product/material-kit-react?ref=readme-mkr).
-
-## Terminal Commands
-
-1. Download and Install NodeJs LTS version from [NodeJs Official Page](https://nodejs.org/en/download/).
-2. Navigate to the root ./ directory of the product and run `yarn install` or `npm install` to install our local dependencies.
-
-## Documentation
-
-The documentation for the Material Dashboard is hosted at our [website](https://www.creative-tim.com/learning-lab/react/overview/material-kit/?ref=readme-mkr).
-
-### What's included
-
-Within the download you'll find the following directories and files:
-
-```
-material-kit-2-react
-    ├── public
-    │   ├── apple-icon.png
-    │   ├── favicon.png
-    │   ├── index.html
-    │   ├── manifest.json
-    │   └── robots.txt
-    ├── src
-    │   ├── assets
-    │   │   ├── images
-    │   │   ├── theme
-    │   │   │   ├── base
-    │   │   │   ├── components
-    │   │   │   ├── functions
-    │   │   └── └── index.js
-    │   ├── components
-    │   │   ├── MKAlert
-    │   │   ├── MKAvatar
-    │   │   ├── MKBadge
-    │   │   ├── MKBox
-    │   │   ├── MKButton
-    │   │   ├── MKDatePicker
-    │   │   ├── MKInput
-    │   │   ├── MKPagination
-    │   │   ├── MKrogress
-    │   │   ├── MKSocialButton
-    │   │   └── MKTypography
-    │   ├── examples
-    │   │   ├── Breadcrumbs
-    │   │   ├── Cards
-    │   │   ├── Footer
-    │   │   └── Navbars
-    │   ├── layouts
-    │   │   ├── pages
-    │   │   │    ├── authentication
-    │   │   │    ├── landing-pages
-    │   │   │    └── presentation
-    │   │   ├── sections
-    │   │   │    ├── attention-catchers
-    │   │   │    ├── components
-    │   │   │    ├── elements
-    │   │   │    ├── input-areas
-    │   │   │    ├── navigation
-    │   │   └──  └── page-sections
-    │   ├── pages
-    │   │   ├── LandingPages
-    │   │   └── Presentation
-    │   ├── App.js
-    │   ├── index.js
-    │   ├── footer.routes.js
-    │   └── routes.js
-    ├── .eslintrc.json
-    ├── .prettierrc.json
-    ├── CHANGELOG.md
-    ├── ISSUE_TEMPLATE.md
-    ├── jsconfig.json
-    ├── package.json
-    └── README.md
+```bash
+npm install atomize react-transition-group
 ```
 
-## Browser Support
+```bash
+yarn add atomize react-transition-group
+```
 
-At present, we officially aim to support the last two versions of the following browsers:
+## Usage
 
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
+```jsx
+import { Button } from "atomize";
+ReactDOM.render(<Button />, mountNode);
+```
 
-## Resources
+## Links
 
-- [Live Preview](https://demos.creative-tim.com/material-kit-react/#/?ref=readme-mkr)
-- [Buy Page](https://www.creative-tim.com/product/material-kit-react?ref=readme-mkr)
-- Documentation is [here](https://www.creative-tim.com/learning-lab/react/overview/material-kit/?ref=readme-mkr)
-- [License Agreement](https://www.creative-tim.com/license?ref=readme-mkr)
-- [Support](https://www.creative-tim.com/contact-us?ref=readme-mkr)
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/ct-material-kit-react/issues)
+- [Home page](http://atomizecode.com/)
+- [Getting Started](https://atomizecode.com/docs/react/setup)
+- [Showcase](https://atomizecode.com/docs/react/showcase)
+- [Contributing](https://atomizecode.com/docs/react/contributing)
+- [Theme Setup](https://atomizecode.com/docs/react/theme)
+- [Atoms](https://atomizecode.com/docs/react/atoms)
+- [Molecules](https://atomizecode.com/docs/react/molecules)
+- [Functions](https://atomizecode.com/docs/react/functions)
 
-## Reporting Issues
+## Examples
 
-We use GitHub Issues as the official bug tracker for the Material Kit 2 React. Here are some advices for our users that want to report an issue:
+- [Search Box](https://codesandbox.io/s/search-box-0fc6c)
+- [Star Rating](https://codesandbox.io/s/star-rating-64ex1)
+- [Login Form](https://codesandbox.io/s/login-form-atomize-ezs4u)
+- [Payment Card](https://codesandbox.io/s/payment-card-42b3c)
+- [Pokedex](https://warpokex.ri7nz.now.sh/) | [Repository](https://github.com/ri7nz/Warpokex)
 
-1. Make sure that you are using the latest version of the Material Kit 2 React. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/product/material-kit-react?ref=readme-mkr).
-2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
-3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
+## Development
 
-## Technical Support or Questions
+To clone locally:
 
-If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us?ref=readme-mkr) instead of opening an issue.
+```bash
+$ git clone git@github.com:Proksh/atomize.git
+$ cd atomize
+$ npm install // or yarn
+$ npm start
+```
 
-## Licensing
+Open your browser and visit http://localhost:8080
 
-- Copyright 2021 [Creative Tim](https://www.creative-tim.com?ref=readme-mkr)
-- Creative Tim [license](https://www.creative-tim.com/license?ref=readme-mkr)
+## Contributing [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-## Useful Links
-
-- [More products](https://www.creative-tim.com/templates?ref=readme-mkr) from Creative Tim
-
-- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
-
-- [Freebies](https://www.creative-tim.com/bootstrap-themes/free?ref=readme-mkr) from Creative Tim
-
-- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=readme-mkr) (earn money)
-
-##### Social Media
-
-Twitter: <https://twitter.com/CreativeTim>
-
-Facebook: <https://www.facebook.com/CreativeTim>
-
-Dribbble: <https://dribbble.com/creativetim>
-
-Google+: <https://plus.google.com/+CreativetimPage>
-
-Instagram: <https://instagram.com/creativetimofficial>
+Read our [contributing guide](https://atomizecode.com/docs/react/contributing) and let's build a better atomize together.
